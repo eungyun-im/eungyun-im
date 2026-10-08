@@ -62,9 +62,10 @@ flowchart LR
 
 ## Awards
 
-`2026.07` &nbsp; SEA:ME Hackathon (Volkswagen Foundation) — **Gold Prize**  
-`2026` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Autonomous Robot Race, Round 3 — **Excellence Award (3rd)**  
-`2026.03` &nbsp; 5th Int'l University EV Autonomous Driving Competition — **Effort Award**
+`2026.07`  SEA:ME Hackathon (Volkswagen Foundation) — **Gold Prize**  
+`2026`     Autonomous Robot Race, Round 3 — **Excellence Award (3rd)**  
+`2026.03`  5th Int'l University EV Autonomous Driving Competition — **Effort Award**  
+`2025.11`  International Robot Contest — TurtleBot3 Autorace — **Encouragement Award**
 
 ---
 
