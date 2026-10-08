@@ -29,7 +29,7 @@ Three projects verify the same automatic emergency braking function at three lev
 |---|---|---|
 | **[ecu-quality-gate](https://github.com/eungyun-im/ecu-quality-gate)** | ECU and network | Release gate for ECU software. UDS diagnostics over ISO-TP (udsoncan, can-isotp, python-can), CAN timing and security checks run on a virtual bench, and a build with seven planted defects proves the suites catch them. |
 | **[automotive-sw-qa](https://github.com/eungyun-im/automotive-sw-qa)** | Software unit | Requirement-based testing of one function in three forms (Simulink/Stateflow model, C code, Python reference) compared back to back, with the test design measured by coverage up to MC/DC and by mutation testing. |
-| **[ecu-fault-injection](https://github.com/eungyun-im/ecu-fault-injection)** | ECU on hardware | Fault injection bench for an STM32 ECU. Lost and corrupted commands, a stuck CPU and bus-off are injected on purpose, and one test suite checks the safety mechanisms in simulation and on the board. |
+| **[ecu-fault-injection](https://github.com/eungyun-im/ecu-fault-injection)** | ECU on hardware | Fault injection bench for an STM32 ECU. Lost and corrupted commands, a stuck CPU, bus-off and interrupted firmware updates over CAN are injected on purpose, and one test suite checks the reaction in simulation and on the board. |
 | **[llm-testcase-review](https://github.com/eungyun-im/llm-testcase-review)** | Test design research | Measures LLM-written test cases by executing them on reference and defect versions, and repairs the test set with boundary, cross-check and mutation feedback. |
 
 ```mermaid
