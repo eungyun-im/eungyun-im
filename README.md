@@ -21,6 +21,24 @@ I'm a 3rd-year Automotive Engineering student at Kookmin University. I develop p
 
 ---
 
+## Featured work
+
+Three projects that verify the same automatic emergency braking function at three levels: the unit, the ECU on its network, and the test design process itself.
+
+| Project | Level | What it does |
+|---|---|---|
+| **[ecu-quality-gate](https://github.com/eungyun-im/ecu-quality-gate)** | ECU and network | Release gate for ECU software. UDS diagnostics, CAN timing and security checks run on a virtual bench, and a build with seven planted defects proves the suites catch them. |
+| **[automotive-sw-qa](https://github.com/eungyun-im/automotive-sw-qa)** | Software unit | Requirement-based testing with test cases designed in CSV, a generated traceability matrix, and the test design measured by branch coverage and mutation testing. |
+| **[llm-testcase-review](https://github.com/eungyun-im/llm-testcase-review)** | Test design research | Measures LLM-written test cases by executing them on reference and defect versions, and repairs the test set with boundary, cross-check and mutation feedback. |
+
+```mermaid
+flowchart LR
+    A[automotive-sw-qa<br>AEB decision logic<br>and its test design] -- same function, on an ECU --> B[ecu-quality-gate<br>diagnostics, network,<br>security, release verdict]
+    A -- reference implementation<br>and human baseline --> C[llm-testcase-review<br>how good are<br>LLM-written tests?]
+```
+
+---
+
 ## Stack
 
 ![ROS2](https://img.shields.io/badge/ROS2_Jazzy-22314E?style=flat-square&logo=ros&logoColor=white)
