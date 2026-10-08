@@ -4,7 +4,7 @@
 
 Building autonomous driving software that holds up outside the lab.
 
-I'm a 3rd-year Automotive Engineering student at Kookmin University. I develop perception and control systems for scale cars and full-size EVs through [KUUVe](https://github.com/KUUVe-KMU), the autonomous driving research club I lead. I care about the gap between benchmark numbers and real-world field behavior, and about building the process that closes it.
+I'm a 3rd-year Automotive Engineering student at Kookmin University. I develop perception and control systems for scale cars through [KUUVe](https://github.com/KUUVe-KMU), the autonomous driving research club I lead. I care about the gap between benchmark numbers and real-world field behavior, and about building the process that closes it.
 
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:dladmsrbs12350@kookmin.ac.kr)
 [![KUUVe](https://img.shields.io/badge/KUUVe--KMU-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/KUUVe-KMU)
