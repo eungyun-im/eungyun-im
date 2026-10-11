@@ -54,7 +54,7 @@ flowchart LR
 ## Experience and awards
 
 `2026.01 — now` President, KUUVe (Kookmin University Unmanned Vehicle)  
-`2025.06 — now` Field Test Engineer, KUUVe Scale Car Project  
+`2025.06 — now` KUUVe Scale Car Project  
 `2023 — now` &nbsp;&nbsp;B.E. Automotive Engineering, Kookmin University
 
 | Date | Competition | Award |
