@@ -10,22 +10,20 @@
   <a href="https://github.com/KUUVe-KMU"><img src="https://img.shields.io/badge/KUUVe--KMU-181717?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
-> **Cars fail in the field, not on the benchmark.** I lead the autonomous driving club at Kookmin University, and I trace those failures back to their cause. That path led me to software verification: tests designed from requirements, faults injected on purpose, and a measurement of whether the tests themselves are any good.
-
-3rd-year Automotive Engineering student, President of [KUUVe](https://github.com/KUUVe-KMU). Perception and control on scale cars, validated lap after lap.
+3rd-year Automotive Engineering student at Kookmin University, President of [KUUVe](https://github.com/KUUVe-KMU), the autonomous driving research club. I build perception and control for scale cars, and I care about the gap between benchmark numbers and field behavior. Tracing failures on a real car led me to software verification: designing tests from requirements, injecting faults on purpose, and measuring whether the tests themselves are any good.
 
 ---
 
 ## Featured work
 
-### One emergency-braking function. Four ways to try to break it.
+One emergency-braking function, verified at four levels.
 
 | Project | Level | What it shows |
 |---|---|---|
-| **[automotive-sw-qa](https://github.com/eungyun-im/automotive-sw-qa)** | 🧪 Unit | Simulink model, C code and Python reference run side by side. MC/DC coverage, mutation testing, and a formal proof of the requirements that finds a seeded defect twelve designed tests miss. Faults injected into the inputs show what the function does not notice. |
-| **[ecu-quality-gate](https://github.com/eungyun-im/ecu-quality-gate)** | 🚦 ECU and network | A release gate for ECU software: UDS over ISO-TP, CAN timing and security checks on a virtual bench. Seven planted defects prove the suites catch them. |
-| **[ecu-fault-injection](https://github.com/eungyun-im/ecu-fault-injection)** | 🔌 Hardware | Lost and corrupted commands, a stuck CPU, bus-off and interrupted firmware updates, injected on an STM32. One test suite runs in simulation and on the board; the board run is pending. |
-| **[llm-testcase-review](https://github.com/eungyun-im/llm-testcase-review)** | 🤖 Test design | Do LLM-written tests catch bugs? Each one is executed against reference and defect versions, and the test set is repaired with feedback. |
+| **[automotive-sw-qa](https://github.com/eungyun-im/automotive-sw-qa)** | Unit | Simulink model, C code and Python reference compared back to back; coverage up to MC/DC, mutation testing, requirement traceability, formal proof of the requirements and fault injection in MATLAB. |
+| **[ecu-quality-gate](https://github.com/eungyun-im/ecu-quality-gate)** | ECU and network | Release gate: UDS over ISO-TP, CAN timing and security checks on a virtual bench; seven planted defects prove the suites catch them. |
+| **[ecu-fault-injection](https://github.com/eungyun-im/ecu-fault-injection)** | Hardware | Lost and corrupted commands, a stuck CPU, bus-off and interrupted firmware updates on an STM32. One suite for simulation and board; the board run is pending. |
+| **[llm-testcase-review](https://github.com/eungyun-im/llm-testcase-review)** | Test design | LLM-written test cases measured by executing them on reference and defect versions, then repaired with feedback. |
 
 ```mermaid
 flowchart LR
