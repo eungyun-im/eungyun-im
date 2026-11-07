@@ -35,6 +35,12 @@ flowchart LR
 
 ---
 
+## Capstone
+
+**[baremetal-nmpc-hils-verification](https://github.com/eungyun-im/baremetal-nmpc-hils-verification)**: a nonlinear MPC running without an OS on an NXP S32K312 (120 MHz), verified with unit tests, coverage, mutation testing, fault injection and 468 recorded HILS laps. The path-error criterion failed, and the repository traces why.
+
+---
+
 ## Stack
 
 ![ROS2](https://img.shields.io/badge/ROS2_Jazzy-22314E?style=flat-square&logo=ros&logoColor=white)
