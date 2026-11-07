@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/header.png" alt="Eungyun Im: automotive software quality, verification, field testing" width="100%"></p>
+<p align="center"><img src="assets/header.png" alt="Eungyun Im: automotive software quality, verification" width="100%"></p>
 
 <p align="center">
   <a href="mailto:dladmsrbs12350@kookmin.ac.kr"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
