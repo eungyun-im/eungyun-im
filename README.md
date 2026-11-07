@@ -1,9 +1,4 @@
-<h1 align="center">Eungyun Im</h1>
-
-<p align="center">
-  <b>Automotive software quality · verification · field testing</b><br>
-  Autonomous driving software that holds up outside the lab.
-</p>
+<p align="center"><img src="assets/header.png" alt="Eungyun Im: automotive software quality, verification, field testing" width="100%"></p>
 
 <p align="center">
   <a href="mailto:dladmsrbs12350@kookmin.ac.kr"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
@@ -17,27 +12,19 @@
 
 ## Featured work
 
-One emergency-braking function, verified at four levels.
+Automotive software verification at three levels, from a function to a real board.
 
 | Project | Level | What it shows |
 |---|---|---|
-| **[automotive-sw-qa](https://github.com/eungyun-im/automotive-sw-qa)** | Unit | Simulink model, C code and Python reference compared back to back; coverage up to MC/DC, mutation testing, requirement traceability, formal proof of the requirements and fault injection in MATLAB. |
+| **[baremetal-nmpc-hils-verification](https://github.com/eungyun-im/baremetal-nmpc-hils-verification)** | Real MCU in the loop | Capstone. A nonlinear MPC without an OS on an NXP S32K312, verified with unit tests, coverage, mutation testing, fault injection and 468 recorded laps. The path-error criterion failed, and the repository traces why. |
 | **[ecu-quality-gate](https://github.com/eungyun-im/ecu-quality-gate)** | ECU and network | Release gate: UDS over ISO-TP, CAN timing and security checks on a virtual bench; seven planted defects prove the suites catch them. |
-| **[ecu-fault-injection](https://github.com/eungyun-im/ecu-fault-injection)** | Hardware | Lost and corrupted commands, a stuck CPU, bus-off and interrupted firmware updates on an STM32. One suite for simulation and board; the board run is pending. |
-| **[llm-testcase-review](https://github.com/eungyun-im/llm-testcase-review)** | Test design | LLM-written test cases measured by executing them on reference and defect versions, then repaired with feedback. |
+| **[automotive-sw-qa](https://github.com/eungyun-im/automotive-sw-qa)** | Function and unit | Simulink model, C code and Python reference compared back to back; coverage up to MC/DC, mutation testing and requirement traceability. |
 
 ```mermaid
 flowchart LR
-    A[automotive-sw-qa<br>function and test design] -- on an ECU --> B[ecu-quality-gate<br>diagnostics, network, release]
-    A -- reference and baseline --> C[llm-testcase-review<br>LLM-written tests]
-    B -- virtual ECU to real MCU --> D[ecu-fault-injection<br>safety mechanisms on STM32]
+    A[automotive-sw-qa<br>function and test design] --> B[ecu-quality-gate<br>diagnostics, network, release]
+    B --> C[baremetal-nmpc-hils-verification<br>real MCU, closed loop, faults]
 ```
-
----
-
-## Capstone
-
-**[baremetal-nmpc-hils-verification](https://github.com/eungyun-im/baremetal-nmpc-hils-verification)**: a nonlinear MPC running without an OS on an NXP S32K312 (120 MHz), verified with unit tests, coverage, mutation testing, fault injection and 468 recorded HILS laps. The path-error criterion failed, and the repository traces why.
 
 ---
 
@@ -49,7 +36,8 @@ flowchart LR
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB_%2F_Simulink-0076A8?style=flat-square&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![NXP S32K](https://img.shields.io/badge/NXP_S32K-000000?style=flat-square&logoColor=white)
+![HILS](https://img.shields.io/badge/HILS-555555?style=flat-square&logoColor=white)
 ![CAN](https://img.shields.io/badge/CAN_%2F_UDS-555555?style=flat-square&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
