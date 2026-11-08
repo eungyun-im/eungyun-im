@@ -20,11 +20,6 @@ Automotive software verification at three levels, from a function to a real boar
 | **[ecu-quality-gate](https://github.com/eungyun-im/ecu-quality-gate)** | ECU and network | Release gate: UDS over ISO-TP, CAN timing and security checks on a virtual bench; seven planted defects prove the suites catch them. |
 | **[automotive-sw-qa](https://github.com/eungyun-im/automotive-sw-qa)** | Function and unit | Simulink model, C code and Python reference compared back to back; coverage up to MC/DC, mutation testing and requirement traceability. |
 
-```mermaid
-flowchart LR
-    A[automotive-sw-qa<br>function and test design] --> B[ecu-quality-gate<br>diagnostics, network, release]
-    B --> C[baremetal-nmpc-hils-verification<br>real MCU, closed loop, faults]
-```
 
 ---
 
