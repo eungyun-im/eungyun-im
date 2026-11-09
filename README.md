@@ -29,12 +29,7 @@ Automotive software verification at three levels, from a function to a real boar
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB_%2F_Simulink-0076A8?style=flat-square&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![NXP S32K](https://img.shields.io/badge/NXP_S32K-000000?style=flat-square&logoColor=white)
-![HILS](https://img.shields.io/badge/HILS-555555?style=flat-square&logoColor=white)
-![CAN](https://img.shields.io/badge/CAN_%2F_UDS-555555?style=flat-square&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
@@ -42,9 +37,9 @@ Automotive software verification at three levels, from a function to a real boar
 
 ## Experience and awards
 
-`2026.01 — now` President, KUUVe (Kookmin University Unmanned Vehicle)  
-`2025.06 — now` KUUVe Scale Car Project  
-`2023 — now` &nbsp;&nbsp;B.E. Automotive Engineering, Kookmin University
+`2026.01 — 2026.12` President, KUUVe (Kookmin University Unmanned Vehicle)  
+`2025.06 — 2026.12` KUUVe Scale Car Project  
+`2022 — now` &nbsp;&nbsp;B.E. Automotive Engineering, Kookmin University
 
 | Date | Competition | Award |
 |---|---|---|
