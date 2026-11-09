@@ -6,7 +6,7 @@
   <a href="https://www.kookmin.ac.kr"><img src="https://img.shields.io/badge/Kookmin_University-00356B?style=flat-square&logoColor=white"></a>
 </p>
 
-3rd-year Automotive Engineering student at Kookmin University, President of [KUUVe](https://github.com/KUUVe-KMU), the autonomous driving research club. I build perception and control for scale cars, and I care about the gap between benchmark numbers and field behavior. Tracing failures on a real car led me to software verification: designing tests from requirements, injecting faults on purpose, and measuring whether the tests themselves are any good.
+3rd-year Automotive Engineering student at Kookmin University, President of 2026[KUUVe](https://github.com/KUUVe-KMU), the autonomous driving research club. I build perception and control for scale cars, and I care about the gap between benchmark numbers and field behavior. Tracing failures on a real car led me to software verification: designing tests from requirements, injecting faults on purpose, and measuring whether the tests themselves are any good.
 
 ---
 
