@@ -28,7 +28,7 @@ Competition code. Each README lists what was checked and what was not.
 | **[waypoint-follower](https://github.com/eungyun-im/waypoint-follower)** | Autonomous Robot Race, Excellence Award | ROS 2 path tracking for ERP42: pure pursuit with Stanley, curvature speed profile, input watchdogs, 29 scenario tests |
 | **[fsd-path-planner](https://github.com/eungyun-im/fsd-path-planner)** | Int'l Univ. EV Autonomous Driving, Effort Award | Cone-track planning: Delaunay/Voronoi centerline, 11 candidate paths, RRT* fallback, stop after repeated planning failures |
 | **[topst-ufld-lane](https://github.com/eungyun-im/topst-ufld-lane)** | SEA:ME Hackathon, Gold Prize | UFLD lane detection on a TOPST D3-G without an NPU (TNN OpenCL), with model-decoder contract checks |
-| **[t870-vehicle-bridge](https://github.com/eungyun-im/t870-vehicle-bridge)** | HL FMA 2026, Encouragement Award | Arduino Mega firmware (motor PWM, encoder interrupt, watchdog) and a ROS steering loop over a binary serial link |
+| **[t870-bridge-sim](https://github.com/eungyun-im/t870-bridge-sim)** | HL FMA 2026, Encouragement Award | Arduino Mega firmware (motor PWM, encoder interrupt, watchdog) and a ROS steering loop over a binary serial link |
 
 ---
 
