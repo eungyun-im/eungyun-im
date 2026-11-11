@@ -12,14 +12,23 @@
 
 ## Featured work
 
-Automotive software verification at three levels, from a function to a real board.
+### Verification
 
 | Project | Level | What it shows |
 |---|---|---|
 | **[baremetal-nmpc-hils-verification](https://github.com/eungyun-im/baremetal-nmpc-hils-verification)** | Real MCU in the loop | Capstone. A nonlinear MPC without an OS on an NXP S32K312, verified with unit tests, coverage, mutation testing, fault injection and 468 recorded laps. The path-error criterion failed, and the repository traces why. |
-| **[ecu-quality-gate](https://github.com/eungyun-im/ecu-quality-gate)** | ECU and network | Release gate: UDS over ISO-TP, CAN timing and security checks on a virtual bench; seven planted defects prove the suites catch them. |
-| **[automotive-sw-qa](https://github.com/eungyun-im/automotive-sw-qa)** | Function and unit | Simulink model, C code and Python reference compared back to back; coverage up to MC/DC, mutation testing and requirement traceability. |
+| **[aeb-ecu-verification](https://github.com/eungyun-im/aeb-ecu-verification)** | Function up to ECU | One AEB function checked on Simulink, C and Python (MC/DC, mutation), then run inside a Brake ECU on a virtual CAN bus with UDS, timing and security tests, seven planted defects and a release gate. Integration tests check that both levels agree. |
 
+### Autonomous driving (KUUVe)
+
+Competition code. Each README lists what was checked and what was not.
+
+| Project | Competition | What it shows |
+|---|---|---|
+| **[waypoint-follower](https://github.com/eungyun-im/waypoint-follower)** | Autonomous Robot Race, Excellence Award | ROS 2 path tracking for ERP42: pure pursuit with Stanley, curvature speed profile, input watchdogs, 29 scenario tests |
+| **[fsd-path-planner](https://github.com/eungyun-im/fsd-path-planner)** | Int'l Univ. EV Autonomous Driving, Effort Award | Cone-track planning: Delaunay/Voronoi centerline, 11 candidate paths, RRT* fallback, stop after repeated planning failures |
+| **[topst-ufld-lane](https://github.com/eungyun-im/topst-ufld-lane)** | SEA:ME Hackathon, Gold Prize | UFLD lane detection on a TOPST D3-G without an NPU (TNN OpenCL), with model-decoder contract checks |
+| **[t870-vehicle-bridge](https://github.com/eungyun-im/t870-vehicle-bridge)** | HL FMA 2026, Encouragement Award | Arduino Mega firmware (motor PWM, encoder interrupt, watchdog) and a ROS steering loop over a binary serial link |
 
 ---
 
@@ -32,6 +41,8 @@ Automotive software verification at three levels, from a function to a real boar
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
+![Simulink](https://img.shields.io/badge/Simulink-0076A8?style=flat-square)
 
 ---
 
